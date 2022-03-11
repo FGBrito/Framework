@@ -1,10 +1,14 @@
 # Framework
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29, API [JSONPlaceholder](https://jsonplaceholder.typicode.com/), [Angular Material](https://material.angular.io/) e node version v14.18.1.
 
+A API a ser utilizada está publicada em 
 ## Development server
+Run `npm start`or  for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+or
+
+Run `ng serve`or  for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
