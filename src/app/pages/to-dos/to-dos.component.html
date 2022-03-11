@@ -1,0 +1,16 @@
+<div class="example-content">
+  <mat-card class="example-card" *ngFor="let item of data">
+    <mat-card-header>
+      <mat-card-title class="example-header-title">Completed: </mat-card-title>
+      <mat-icon class="example-icon-task_alt" aria-hidden="false" 
+        aria-label="Example user verified icon" *ngIf="item.completed">task_alt</mat-icon>
+      <mat-icon class="example-icon-cancel" aria-hidden="false" 
+        aria-label="Example user verified icon" *ngIf="!item.completed">cancel</mat-icon>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{item.title}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>

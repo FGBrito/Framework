@@ -1,0 +1,56 @@
+$base-cls: 'app-not-found';
+
+
+
+
+:host {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+
+  .#{$base-cls} {
+
+    &-wrapper {
+
+      &-title-container {
+
+        h1 {
+          line-height: 1;
+          font-size: 186px;
+          font-weight: 200;
+          margin: 0px;
+          text-transform: uppercase;
+        }
+      }
+
+      &-message-container {
+        font-weight: 200;
+        opacity: .8;
+        margin-bottom: 10px;
+      }
+
+      &-footer-container {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+
+        button {
+          border: none;
+          padding: 10px 15px;
+          border-radius: 2px;
+          background: transparent;
+          color: inherit;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

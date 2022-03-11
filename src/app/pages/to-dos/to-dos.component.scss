@@ -1,0 +1,147 @@
+.example-content{
+  display: grid !important;
+  grid-gap: 10px !important;
+  grid-template-columns: repeat(16, 200px) !important;
+}
+.example-card {
+  max-width: 200px;
+  margin: 5px;
+}
+.example-icon-task_alt{
+  color: green;
+}
+.example-icon-cancel{
+  color: red;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.example-header-title{
+  overflow: hidden;
+  // width: 100px;
+  white-space: nowrap;
+}
+.example-header-subtitle{
+  overflow: hidden;
+  width: 50px;
+  white-space: nowrap;
+}
+
+@media only screen and(max-width: 3240px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(14, 200px) !important;
+  }
+}
+
+@media only screen and(max-width: 3000px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(13, 200px) !important;
+  }
+}
+@media only screen and(max-width: 2887px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(12, 200px) !important;
+  }
+}
+@media only screen and(max-width: 2655px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(11, 200px) !important;
+  }
+}
+@media only screen and(max-width: 2560px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(10, 200px) !important;
+  }
+}
+@media only screen and(max-width: 2228px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(9, 200px) !important;
+  }
+}
+@media only screen and(max-width: 1980px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(8, 200px) !important;
+  }
+}
+@media only screen and(max-width: 1826px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(7, 200px) !important;
+  }
+}
+@media only screen and(max-width: 1596px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(6, 200px) !important;
+  }
+}
+@media only screen and(max-width: 1396px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(5, 200px) !important;
+  }
+}
+
+@media only screen and(max-width: 1172px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(4, 200px) !important;
+  }
+}
+
+@media only screen and(max-width: 974px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(3, 200px) !important;
+  }
+}
+@media only screen and(max-width: 762px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(2, 200px) !important;
+  }
+}
+@media only screen and(max-width: 554px) {
+  .example-content{
+    display: flex !important;
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns: repeat(1, 200px) !important;
+  }
+}
